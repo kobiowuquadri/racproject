@@ -4,19 +4,18 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   background-color: rgba(128, 128, 128, 0.786);
-  border: 2px solid black;
 }
 /* main form */
 .wrapper {
   display: flex;
   justify-content: center;
   width: 590px;
-  height: 638px;
+  height: 550px;
   background: white;
   box-shadow: 0px 2px 40px 0px rgba(189, 189, 189, 0.11);
 }
@@ -79,10 +78,10 @@ body {
   text-decoration: underline;
 }
 /* button div */
-.btn {
+/* .btn {
   padding-left: 30px;
-}
-button {
+} */
+/* button {
   width: 480px;
   border: none;
   color: white;
@@ -92,7 +91,7 @@ button {
   font-size: 18px;
   border-radius: 5px;
   background: #0133ca;
-}
+} */
 button:hover {
   background-color: rgba(1, 51, 202, 0.7);
   cursor: pointer;
@@ -100,7 +99,6 @@ button:hover {
 }
 @media (max-width: 768px) {
   .wrapper {
-    height: 100%;
-    padding: 30px;
+    height: 100vh;
   }
 }
