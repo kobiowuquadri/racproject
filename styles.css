@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   background-color: rgba(128, 128, 128, 0.786);
 }
 /* main form */
@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   width: 590px;
-  height: 638px;
+  height: 550px;
   background: white;
   box-shadow: 0px 2px 40px 0px rgba(189, 189, 189, 0.11);
 }
@@ -95,7 +95,7 @@ button {
   border-radius: 5px;
   background: #0133ca;
   border: 1px solid #0133ca;
-  transition: all 200ms ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 button:hover {
   background-color: white;
