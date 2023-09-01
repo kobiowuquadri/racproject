@@ -95,7 +95,7 @@ button {
   border-radius: 5px;
   background: #0133ca;
   border: 1px solid #0133ca;
-  transition: all 200ms ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 button:hover {
   background-color: white;
